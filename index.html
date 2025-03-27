@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generative AI & Agentic AI Course Brochure</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      background: url('https://via.placeholder.com/1400x700?text=Generative+AI+Banner') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .hero-content {
+      z-index: 2;
+      max-width: 80%;
+      margin: 0 auto;
+      animation: fadeInDown 1.2s ease-in-out;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 1em;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      max-width: 800px;
+      margin: 0.5em auto;
+    }
+
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Content Sections */
+    .section {
+      padding: 2em 10%;
+    }
+    .section h2 {
+      margin-bottom: 0.5em;
+      position: relative;
+      display: inline-block;
+      animation: slideIn 1s ease-in-out;
+    }
+    .section p {
+      margin-bottom: 1em;
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .image-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+      margin: 1em 0;
+    }
+    .image-wrap img {
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .image-wrap img:hover {
+      transform: scale(1.05);
+    }
+
+    /* CTA Section */
+    .cta {
+      text-align: center;
+      background: #f7f7f7;
+      padding: 2em 0;
+      margin-top: 2em;
+    }
+    .cta h3 {
+      margin-bottom: 0.5em;
+      animation: bounceIn 0.8s ease-in-out;
+    }
+    .cta p {
+      margin-bottom: 1em;
+      max-width: 600px;
+      margin: 0.5em auto;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 0.7em 1.4em;
+      background: #2196f3;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #0b79d0;
+    }
+
+    @keyframes bounceIn {
+      0% {
+        transform: scale(0.3);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      70% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 2em 10%;
+      text-align: center;
+    }
+    footer p {
+      margin: 0.3em 0;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .section {
+        padding: 2em 5%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Generative AI & Agentic AI Course</h1>
+      <p>Learn how to create, deploy, and market the next generation of intelligent, autonomous systems. Propel your career with cutting-edge AI innovations!</p>
+    </div>
+  </div>
+
+  <!-- Introduction Section -->
+  <section class="section">
+    <h2>Why Generative AI?</h2>
+    <p>Generative AI is revolutionizing how we interact with machines. From building powerful chatbots to creating fully autonomous agents, this course prepares you for a future where AI-driven software dominates every industry. Whether you’re a developer, data scientist, or tech enthusiast, mastering generative AI opens a new realm of possibilities in product innovation and enterprise solutions.</p>
+    <div class="image-wrap">
+      <img src="https://via.placeholder.com/400x250?text=GenAI+Insights" alt="GenAI Insights" />
+      <img src="https://via.placeholder.com/400x250?text=Creative+AI+Generation" alt="Creative AI Generation" />
+      <img src="https://via.placeholder.com/400x250?text=AI+Innovation+Journey" alt="AI Innovation Journey" />
+    </div>
+  </section>
+
+  <!-- Course Outline Section -->
+  <section class="section">
+    <h2>Comprehensive Course Highlights</h2>
+    <p><strong>Foundations of Neural Networks & Models</strong><br/>
+      - Master linear & logistic regression concepts and how models are trained.<br/>
+      - Explore backpropagation, gradient descent, neurons, and the evolution of AI (ML, Deep Learning, Gen AI).</p>
+    <p><strong>Generative AI & ChatGPT</strong><br/>
+      - Delve into LLMs, ChatGPT capabilities, and real-world applications.<br/>
+      - Hands-on prompting for creative content generation, summarization, and Q&A.</p>
+    <p><strong>Advanced Prompt Engineering</strong><br/>
+      - Zero/One/Few-Shot prompting, Chain-of-Thought, ReAct, and more.<br/>
+      - Tackle complex tasks through iterative refinements and memory-augmented solutions.</p>
+    <p><strong>LangChain Essentials</strong><br/>
+      - Craft multi-step AI workflows with advanced chain design and memory.<br/>
+      - Deploy interactive chatbots using Gradio, Chainlit, or your favorite frameworks.</p>
+    <p><strong>Embeddings, Vector Stores & RAG</strong><br/>
+      - Utilize Chroma DB, Pinecone, or other vector databases for retrieval augmentation.<br/>
+      - Implement large-scale search solutions and visualize embeddings for deeper insights.</p>
+    <p><strong>Tools, Agents & LangGraph</strong><br/>
+      - Define & integrate tools (DB, web search) into AI agents with memory and scratchpads.<br/>
+      - Discover conditional branching, parallel processing, subgraphs, and multi-agent orchestration.</p>
+    <p><strong>Llama Index & Crew AI</strong><br/>
+      - Construct robust indexing pipelines and property graphs for advanced retrievals.<br/>
+      - Harness Crew AI to build multi-agent collaborations with powerful memory and error recovery.</p>
+    <p><strong>AutoGen & OpenAI Assistant</strong><br/>
+      - Build conversible agents with code execution, function calling, and more advanced flows.<br/>
+      - RAG with multiple files and design production-grade AI solutions for enterprise needs.</p>
+  </section>
+
+  <!-- Extra GenAI Marketing Section -->
+  <section class="section">
+    <h2>Real-World Impact of GenAI</h2>
+    <p>Generative AI is reshaping industries—from healthcare breakthroughs to finance automation and creative media production. Learn how **agentic applications** can handle complex tasks, autonomously coordinate multiple services, and even collaborate with humans in real-time. Our course empowers you to build these scalable, innovative solutions that push the limits of what AI can achieve.</p>
+    <div class="image-wrap">
+      <img src="https://via.placeholder.com/400x250?text=Medical+AI+Solutions" alt="Medical AI Solutions" />
+      <img src="https://via.placeholder.com/400x250?text=Finance+Automation+with+AI" alt="Finance Automation with AI" />
+      <img src="https://via.placeholder.com/400x250?text=Media+Content+Generation" alt="Media Content Generation" />
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <h3>Start Your AI Innovation Journey Now!</h3>
+    <p>Step into the future of technology with our comprehensive Generative AI & Agentic AI Course. Whether you're looking to enhance your career or pioneer the next breakthrough, we provide the roadmap and hands-on experience to get you there.</p>
+    <a href="#">Enroll Today</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Contact Us:</strong> srinipassion27@gmail.com | +919986417043 </p>
+    <p>© 2025 Your Training Company. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
